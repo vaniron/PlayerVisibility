@@ -97,11 +97,11 @@ public class PlayerVisibility implements ModInitializer {
 
     public static void ToggleVisibility() {
         Visible = !Visible;
-        String VisibleString = "§coff";
+        String VisibleString = "§cvypnuta";
         if (Visible) {
-            VisibleString = "§aon";
+            VisibleString = "§azapnuta";
         }
-        Minecraft.player.sendMessage(Text.of(String.format("§%cPlayer Visibility§f is now §f%s§f", ModConfig.INSTANCE.MainColor.GetChar(), VisibleString)), true);
+        Minecraft.player.sendMessage(Text.of(String.format("§%cViditelnost ostatních hráčů§f je nyní §f%s§f", ModConfig.INSTANCE.MainColor.GetChar(), VisibleString)), true);
     }
 
     public static boolean IsVisible() {
