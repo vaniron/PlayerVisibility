@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "player-visibility",
-  "version": "1.1",
+  "version": "1.2",
   "name": "Player Visibility",
   "description": "Hide other players at the press of a key!",
   "authors": [
@@ -31,10 +31,10 @@
     "player-visibility.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.21",
+    "fabricloader": ">=0.16.9",
     "fabric": "*",
-    "minecraft": "1.20.x",
-    "java": ">=17"
+    "minecraft": "1.21.x",
+    "java": ">=21"
   },
   "suggests": {
     "another-mod": "*"

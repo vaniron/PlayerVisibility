@@ -6,7 +6,6 @@ import dev.xnasuni.playervisibility.config.ModConfig;
 import dev.xnasuni.playervisibility.util.ArrayListUtil;
 import dev.xnasuni.playervisibility.util.ConfigUtil;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
@@ -25,7 +24,6 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Arrays;
 
 public class PlayerVisibility implements ModInitializer {
     public static final String ModID = "player-visibility";
